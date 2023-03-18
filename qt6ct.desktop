@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+NoDisplay=false
+Name=Qt6 Settings
+Comment=Qt6 configurator
+GenericName=Qt6 settings
+Keywords=qt6;settings
+Exec=/home/sbela/apps/qt6ct/bin/qt6ct
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=preferences-desktop-theme
+Categories=GUI;Qt
+StartupNotify=true
+StartupWMClass=MainWindows

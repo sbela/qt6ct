@@ -1,2 +1,5 @@
 *.user
 extras/
+build/
+build-Release/
+build-Debug/

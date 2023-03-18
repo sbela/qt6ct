@@ -44,3 +44,8 @@ message (LIBDIR=$$LIBDIR)
 message (DATADIR=$$DATADIR)
 message (PLUGINDIR=$$PLUGINDIR)
 equals (DISABLE_WIDGETS,1):message ("Qt Widgets are disabled!")
+
+DISTFILES += \
+    .clang-format \
+    .gitignore \
+    qt6ct.desktop

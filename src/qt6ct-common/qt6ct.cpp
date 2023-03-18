@@ -75,8 +75,8 @@ QStringList Qt6CT::iconPaths()
     paths.removeDuplicates();
 
     //remove invalid
-    QStringList::iterator it = paths.begin();
-    while(it != paths.end())
+    QStringList::const_iterator it = paths.cbegin();
+    while(it != paths.cend())
     {
         if(QDir(*it).exists())
             ++it ;
